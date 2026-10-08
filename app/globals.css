@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Nanum+Myeongjo:wght@400;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-host-grotesk: 'Host Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-nanum-myeongjo: 'Nanum Myeongjo', 'NanumMyengjo', Georgia, serif;
+    --font-inter: 'Inter', sans-serif;
+    --color-cream: #FCFAF2;
+    --color-yellow-brand: #FFFB86;
+    --color-teal-brand: #116A74;
+    --color-teal-dark: #0D4E55;
+    --color-olive-brand: #9F9B0D;
+  }
+
+  body {
+    background-color: #FCFAF2;
+    color: #1A1A1A;
+    font-family: var(--font-host-grotesk);
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Explicit font families matching Figma */
+.font-\[\'NanumMyengjo\'\],
+.font-\[\'NanumMyeongjo\'\],
+.font-\[\'Nanum_Myeongjo\'\],
+.font-\[\'Nanum\ Myeongjo\'\],
+.font-nanum,
+.font-serif {
+  font-family: var(--font-nanum-myeongjo), 'Nanum Myeongjo', 'NanumMyengjo', Georgia, serif !important;
+}
+
+.font-\[\'Host_Grotesk\'\],
+.font-\[\'Host\ Grotesk\'\],
+.font-\[\'HostGrotesk\'\],
+.font-host,
+.font-sans {
+  font-family: var(--font-host-grotesk), 'Host Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.font-\[\'Inter\'\],
+.font-inter {
+  font-family: var(--font-inter), 'Inter', sans-serif !important;
+}
+
+/* Figma brand colors exact classes */
+.bg-yellow-50 {
+  background-color: #FCFAF2;
+}
+
+.bg-yellow-200 {
+  background-color: #FFFB86;
+}
+
+.text-yellow-200 {
+  color: #FFFB86;
+}
+
+.border-yellow-200 {
+  border-color: #FFFB86;
+}
+
+.outline-yellow-200 {
+  outline-color: #FFFB86;
+}
+
+.text-Yellow-Brand {
+  color: #FFFB86;
+}
+
+.bg-Yellow-Brand {
+  background-color: #FFFB86;
+}
+
+.border-Yellow-Brand {
+  border-color: #FFFB86;
+}
+
+.bg-cyan-800 {
+  background-color: #116A74;
+}
+
+.text-cyan-800 {
+  color: #116A74;
+}
+
+.outline-cyan-800 {
+  outline-color: #116A74;
+}
+
+.border-cyan-800 {
+  border-color: #116A74;
+}
+
+.bg-Green-Brand- {
+  background-color: #116A74;
+}
+
+.text-Green-Brand- {
+  color: #116A74;
+}
+
+.text-Dark-Green-Brand {
+  color: #0E4E55;
+}
+
+.text-Jet-Black {
+  color: #1A1A1A;
+}
+
+.text-Pure-White {
+  color: #FFFFFF;
+}
+
+.text-White {
+  color: #FFFFFF;
+}
+
+.text-color-chartreuse-green-5 {
+  color: #0E545B;
+}
+
+.text-teal-900 {
+  color: #0D4E55;
+}
+
+.text-yellow-600 {
+  color: #9F9B0D;
+}

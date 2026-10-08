@@ -1,0 +1,6 @@
+{
+  "name": "CMG - Australia Visa & Migration",
+  "description": "Australia Visa Application Support from MARA-Registered Agents. Helping workers, families, and businesses navigate Australian visa pathways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
